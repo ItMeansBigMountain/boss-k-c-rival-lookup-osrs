@@ -1,0 +1,13 @@
+{
+  "name": "BossKCRivalLookup",
+  "version": "1.0.0",
+  "description": "shows boss kill comparisons between you and targeted players",
+  "author": "Affan Fareed",
+  "tags": [
+    "osrs",
+    "runelite",
+    "plugin",
+    "bosskcrivallookup"
+  ],
+  "min_engine_version": "3.0.0"
+}

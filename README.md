@@ -1,0 +1,2 @@
+# BossKCRivalLookup
+BossKCRivalLookup OSRS plugin
