@@ -1,13 +1,15 @@
 {
-  "name": "BossKCRivalLookup",
+  "name": "Boss KC Rival Lookup",
   "version": "1.0.0",
-  "description": "shows boss kill comparisons between you and targeted players",
-  "author": "Affan Fareed",
+  "description": "Compare your boss kill count against a configured rival from OSRS hiscores.",
+  "author": "Oyama",
   "tags": [
     "osrs",
     "runelite",
-    "plugin",
-    "bosskcrivallookup"
+    "boss",
+    "kc",
+    "hiscores",
+    "rival"
   ],
   "min_engine_version": "3.0.0"
 }

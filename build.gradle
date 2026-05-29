@@ -14,7 +14,7 @@ repositories {
 }
 
 def runeLiteVersion = 'latest.release'
-def pluginMainClass = 'com.oyama.dmm.DeadmanBreachPluginTest'
+def pluginMainClass = 'com.itmeansbigmountain.bosskcrivallookup.BossKcRivalLookupPluginTest'
 
 dependencies {
 	compileOnly group: 'net.runelite', name:'client', version: runeLiteVersion
@@ -22,13 +22,13 @@ dependencies {
 	compileOnly 'org.projectlombok:lombok:1.18.30'
 	annotationProcessor 'org.projectlombok:lombok:1.18.30'
 
-	testImplementation 'junit:junit:4.12'
+	testImplementation 'junit:junit:4.13.2'
 	testImplementation group: 'net.runelite', name:'client', version: runeLiteVersion
 	testImplementation group: 'net.runelite', name:'jshell', version: runeLiteVersion
 }
 
-group = 'com.example'
-version = '1.0-SNAPSHOT'
+group = 'com.itmeansbigmountain'
+version = '1.0.0'
 
 tasks.withType(JavaCompile).configureEach {
 	options.encoding = 'UTF-8'
@@ -64,7 +64,8 @@ tasks.register('shadowJar', Jar) {
 	exclude 'META-INF/*.RSA'
 	exclude '**/module-info.class'
 
-	group = BasePlugin.BUILD_GROUP
+	group = 'build'
+	description = 'Builds a runnable RuneLite developer-mode jar for local manual testing.'
 	archiveClassifier.set('shadow')
 	archiveFileName.set("${rootProject.name}-${project.version}-all.jar")
 }
