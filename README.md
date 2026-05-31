@@ -86,3 +86,7 @@ To launch RuneLite in developer mode with this plugin loaded:
 - `runelite-plugin.properties` points at `com.itmeansbigmountain.bosskcrivallookup.BossKcRivalLookupPlugin`.
 - The plugin does not require extra runtime secrets or external services beyond OSRS hiscores.
 - Before submission, capture a screenshot or short GIF of a successful lookup in RuneLite and verify the GitHub `support` URL points to the final public repository.
+
+## Product direction update
+
+This standalone concept is superseded by RivalRadar. The desired product is one rival-by-username side-panel dashboard with optional deadline/race mode and all available tracking API comparisons, instead of separate boss rival, skill nemesis, and skill race plugins. Keep this repo only as historical scaffold/reference unless the user explicitly asks to delete or revive it.
